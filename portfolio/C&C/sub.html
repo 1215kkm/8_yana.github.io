@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>동영상 html 삽입</title>
+
+   <!-- 포털사이트에 노출되는 PC website 정보-->
+   <meta name="title" content="보안전문업체 KM">
+   <meta name="Author" content="강경모">
+   <meta name="Keywords" content="보안전문, 복구, 해킹방지, 바이러스치료, 보안전문업체">
+   <meta name="Description" content="사이트 설명부분인데 키워드랑 같게 써도 됨">
+
+   <!--포털사이트에 노출되는 모바일 website 정보-->
+   <meta property="og:type" content="mobilesite">
+   <meta property="og:title" content="사이트제목" />
+   <meta property="og:description" content="사이트 설명부분인데 키워드랑 같게 써도 됨" />
+   <meta property="og:image" content="images/v.jpg"/> <!-- 800x400 -->
+
+   <!--설명:html5 태그 ie 9 버전 미만일때 적용 스크립트-->
+   <!--[if lt IE 9]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+    <!--설명:IE6, IE7, IE8이 제대로 알아듣지 못하는 CSS도 사용가능 -->
+   <!--[if lt IE 9]>
+   <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+   <![endif]-->
+
+   <!--설명:IE 9미만 브라우저에 미디어쿼리 인식 -->
+   <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+   <![endif]-->
+
+   <!--설명:IE 9미만 브라우저에 placeholer 속성 사용 -->
+   <!--[if lt IE 9]>
+   <script src="script/placeholders.min.js"></script>
+   <![endif]-->
+
+   <!--설명:nth-child ie 9버전 미만에서 사용 -->
+   <!--[if lt IE 9]>
+     <script src="script/selectivizr-min.js"></script>
+   <![endif]-->
+
+   <script src="script/ie-checker.js"></script>
+   <!--설명:IE8버전 이하에서 접속할경우 메시지보이기 -->
+   <!--[if lte IE 8]>
+        <p style="font-size: 12px; color: #fff; background: #2885b0; padding:5px 0; margin: 0; text-align: center">사용하고 계신 브라우저는 최신 웹 브라우저가 아닙니다. 업그레이드를 하거나 다른 최신 브라우저 사용을 권장합니다.
+       <a href="http://www.microsoft.com/korea/ie" target="_blank" >익스플로러,</a>
+        <a href="http://www.mozilla.or.kr/ko/" target="_blank">파이어폭스,</a>
+        <a href="http://kr.opera.com/download/" target="_blank">오페라,</a>
+        <a href="http://support.apple.com/kb/DL1531?viewlocale=ko_KR&locale=ko_KR" target="_blank">사파리,</a>
+        <a href="http://www.google.com/chrome?hl=ko" target="_blank">크롬</a></p>
+    <![endif]-->
+
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/video.css">
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+   <header>
+      <div class="topset">
+         <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+
+         <div class="hamberg">
+            <span></span>
+         </div>
+         
+         <div class="modal"></div>
+
+         <ul class="gnb">
+            <li><a href="sub.html">C&C소개</a>
+                <ul class="lnb">
+                   <li><a href="#">캠퍼스 찾기</a></li>
+                   <li><a href="#">입시정보</a></li>
+                   <li><a href="#">갤러리</a></li>
+                   <li><a href="#">DIRECTION</a></li>
+                </ul>
+             </li>
+             <li><a href="#">캠퍼스 찾기</a>
+                <ul class="lnb">
+                   <li><a href="#">SERVICE INFO</a></li>
+                   <li><a href="#">SERVICE OFFER</a></li>
+                </ul>
+             </li>
+             <li><a href="#">입시정보</a>
+                <ul class="lnb">
+                   <li><a href="#">CONTACT US</a></li>
+                </ul>
+             </li>
+             <li><a href="#">합격자명단</a>
+                <ul class="lnb">
+                   <li><a href="#">NEWS</a></li>
+                   <li><a href="#">Q&amp;A</a></li>
+                   <li><a href="#">FAQ</a></li>
+                   <li><a href="#">WEBHARD</a></li>
+                </ul>
+             </li>
+               <li><a href="#">1:1문의</a>
+                <ul class="lnb">
+                   <li><a href="#">NEWS</a></li>
+                   <li><a href="#">Q&amp;A</a></li>
+                   <li><a href="#">FAQ</a></li>
+                   <li><a href="#">WEBHARD</a></li>
+                </ul>
+             </li>
+               <li><a href="#">따뜻한 동행</a>
+                <ul class="lnb">
+                   <li><a href="#">NEWS</a></li>
+                   <li><a href="#">Q&amp;A</a></li>
+                   <li><a href="#">FAQ</a></li>
+                   <li><a href="#">WEBHARD</a></li>
+                </ul>
+             </li>
+       
+               <li><a href="#">미술적성테스트</a>
+                <ul class="lnb">
+                   <li><a href="#">NEWS</a></li>
+                   <li><a href="#">Q&amp;A</a></li>
+                   <li><a href="#">FAQ</a></li>
+                   <li><a href="#">WEBHARD</a></li>
+                </ul>
+             </li>
+
+
+         <div class="lnb_bg"></div>
+      </div>
+   </header>
+
+
+
+
+
+   <div id="visual_sub">
+      <video autoplay muted loop>
+         <source src="video/movie.mp4" type="video/mp4">
+         <source src="video/movie.ogg" type="video/ogg">
+      </video>
+   </div>
+
+
+
+
+   <section id="section_sub">
+      <div class="sub_top">
+         <h2>ABOUT COMPANY
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </h2>
+
+         <ul class="snb">
+            <li><a href="#">캠퍼스 찾기</a></li>
+            <li><a href="#">입시정보</a></li>
+            <li><a href="#">갤러리</a></li>
+            <li><a href="sub.html">DIRECTION</a></li>
+         </ul>
+      </div>
+
+
+
+      <div class="sub_content">
+         <div class="left_text">
+            <span>꿈이 있는 10대를 위한 바른가르침, C&C가 앞장섭니다.</span>   
+            <em>학생중심의 바른가르침<br>
+                여러분의 꿈에 날개를<br>
+                달아드립니다
+                
+            </em>
+            C&C미술학원의 원훈인
+“꿈이 있는 10대를 위한 바른 가르침” 에서 볼 수 있듯이
+C&C미술학원의 폭발적인 성장의 원동력은 
+선생님에 대한 투자와 지속적인 교육과 관리입니다.<br>
+모든 시스템과 교육프로그램이 잘 갖추어져 있다 하더라도
+ 학생들을 직접 대면하는 선생님의 마인드와 역량이 이를 따라가지 못한다면
+아무 의미가 없는 것으로 매월 거듭되는 분야별 수업 커리큘럼 세미나로 
+다양한 욕구에 맞출 수 있는 교육프로그램을 개발하고,
+실기연구부서, 진도별 실기관리교육, 영상자료 및 교재개발은 
+해마다 C&C의 우수한 합격결과와 실기대회 수상실적으로 이어집니다.
+
+  
+         </div>
+
+
+         <div class="right_img">
+            <figure class="small">
+               <img src="images/sub01_01_img1.jpg" alt="">
+            </figure>
+            <figure class="big">
+               <img src="images/sub01_01_img2.jpg" alt="">
+            </figure>
+         </div>
+      </div>
+
+
+
+   </section>
+
+
+
+
+
+
+   <footer>
+      <div class="center_box">
+         <h1><img src="images/logo.png" alt=""></h1>
+         <div class="infobox">
+            <ul class="info">
+               <li><a href="#">회사소개</a></li>
+               <li><a href="#">서비스이용약관</a></li>
+               <li><a href="#">개인정보처리방침</a></li>
+               <li><a href="#">사업자정보확인</a></li>
+            </ul>
+
+            <address>
+               회사명/대표자명/전화번호/팩스번호/주소/사업자번호/통신판매번호/개인정보취급방침 : 강경모 <br>
+               COPYRIGHT(C)회사명. ALL RIGHTS RESERVED.
+            </address>
+         </div>
+         <a href="tel:3321-7317" class="phone">3321-7317</a>
+      </div>
+   </footer>
+
+
+   <div class="bar"></div>
+
+
+   <script src="script/jquery-3.6.0.min.js"></script>
+   <script src="script/jquery-ui.min.js"></script>
+   <script src="script/action.js"></script>
+   
+</body>
+</html>

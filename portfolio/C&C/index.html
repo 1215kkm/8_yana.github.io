@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>동영상 html 삽입</title>
+
+   <!-- 포털사이트에 노출되는 PC website 정보-->
+   <meta name="title" content="보안전문업체 KM">
+   <meta name="Author" content="강경모">
+   <meta name="Keywords" content="보안전문, 복구, 해킹방지, 바이러스치료, 보안전문업체">
+   <meta name="Description" content="사이트 설명부분인데 키워드랑 같게 써도 됨">
+
+   <!--포털사이트에 노출되는 모바일 website 정보-->
+   <meta property="og:type" content="mobilesite">
+   <meta property="og:title" content="사이트제목" />
+   <meta property="og:description" content="사이트 설명부분인데 키워드랑 같게 써도 됨" />
+   <meta property="og:image" content="images/v.jpg"/> <!-- 800x400 -->
+
+   <!--설명:html5 태그 ie 9 버전 미만일때 적용 스크립트-->
+   <!--[if lt IE 9]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+    <!--설명:IE6, IE7, IE8이 제대로 알아듣지 못하는 CSS도 사용가능 -->
+   <!--[if lt IE 9]>
+   <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+   <![endif]-->
+
+   <!--설명:IE 9미만 브라우저에 미디어쿼리 인식 -->
+   <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+   <![endif]-->
+
+   <!--설명:IE 9미만 브라우저에 placeholer 속성 사용 -->
+   <!--[if lt IE 9]>
+   <script src="script/placeholders.min.js"></script>
+   <![endif]-->
+
+   <!--설명:nth-child ie 9버전 미만에서 사용 -->
+   <!--[if lt IE 9]>
+     <script src="script/selectivizr-min.js"></script>
+   <![endif]-->
+
+   <script src="script/ie-checker.js"></script>
+   <!--설명:IE8버전 이하에서 접속할경우 메시지보이기 -->
+   <!--[if lte IE 8]>
+        <p style="font-size: 12px; color: #fff; background: #2885b0; padding:5px 0; margin: 0; text-align: center">사용하고 계신 브라우저는 최신 웹 브라우저가 아닙니다. 업그레이드를 하거나 다른 최신 브라우저 사용을 권장합니다.
+       <a href="http://www.microsoft.com/korea/ie" target="_blank" >익스플로러,</a>
+        <a href="http://www.mozilla.or.kr/ko/" target="_blank">파이어폭스,</a>
+        <a href="http://kr.opera.com/download/" target="_blank">오페라,</a>
+        <a href="http://support.apple.com/kb/DL1531?viewlocale=ko_KR&locale=ko_KR" target="_blank">사파리,</a>
+        <a href="http://www.google.com/chrome?hl=ko" target="_blank">크롬</a></p>
+    <![endif]-->
+
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/video.css">
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+   <header>
+      <div class="topset">
+         <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+
+         <div class="hamberg">
+            <span></span>
+         </div>
+         
+         <div class="modal"></div>
+
+         <ul class="gnb">
+            <li><a href="sub.html">C&C소개</a>
+               <ul class="lnb">
+                  <li><a href="#">캠퍼스 찾기</a></li>
+                  <li><a href="#">입시정보</a></li>
+                  <li><a href="#">갤러리</a></li>
+                  <li><a href="sub.html">DIRECTION</a></li>
+               </ul>
+            </li>
+            <li><a href="#">캠퍼스 찾기</a>
+               <ul class="lnb">
+                  <li><a href="#">SERVICE INFO</a></li>
+                  <li><a href="#">SERVICE OFFER</a></li>
+               </ul>
+            </li>
+            <li><a href="#">입시정보</a>
+               <ul class="lnb">
+                  <li><a href="#">CONTACT US</a></li>
+               </ul>
+            </li>
+            <li><a href="#">합격자명단</a>
+               <ul class="lnb">
+                  <li><a href="#">NEWS</a></li>
+                  <li><a href="#">Q&amp;A</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">WEBHARD</a></li>
+               </ul>
+            </li>
+              <li><a href="#">1:1문의</a>
+               <ul class="lnb">
+                  <li><a href="#">NEWS</a></li>
+                  <li><a href="#">Q&amp;A</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">WEBHARD</a></li>
+               </ul>
+            </li>
+              <li><a href="#">따뜻한 동행</a>
+               <ul class="lnb">
+                  <li><a href="#">NEWS</a></li>
+                  <li><a href="#">Q&amp;A</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">WEBHARD</a></li>
+               </ul>
+            </li>
+      
+              <li><a href="#">미술적성테스트</a>
+               <ul class="lnb">
+                  <li><a href="#">NEWS</a></li>
+                  <li><a href="#">Q&amp;A</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">WEBHARD</a></li>
+               </ul>
+            </li>
+         </ul>
+         
+
+         <div class="topmenu">
+            <a href="#"><i class="fas fa-search"></i> search</a>
+            <a href="#">awards</a>
+            <a href="#">news1</a>
+         </div>
+      </div>
+   </header>
+   <div id="visual">
+      <video autoplay muted loop>
+         <source src="video/movie.mp4" type="video/mp4">
+         <source src="video/movie.ogg" type="video/ogg">
+      </video>
+
+      <!-- <iframe src="https://www.youtube.com/embed/xRbPAVnqtcs?controls=1&autoplay=1&mute=1&amp;loop=1&playlist=xRbPAVnqtcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+   </div>
+
+
+
+   <section class="section1">
+      <h2>C&C GALLERY</h2>
+      <div class="cont_box">
+         <div class="big_img">
+            <img src="images/GALLERY_01.jpg" alt="">
+         </div>
+         <div class="list_img">
+            <ul>
+               <li class="thumb"><img src="images/GALLERY_02.jpg" alt=""></li>
+            
+            </ul>
+            <ul>
+               <li class="thumb"><img src="images/GALLERY_03.jpg" alt=""></li>
+              
+            </ul>
+            <ul>
+               <li class="thumb"><img src="images/GALLERY_04.jpg" alt=""></li>
+              
+            </ul>
+            <ul>
+               <li class="thumb"><img src="images/GALLERY_05.jpg" alt=""></li>
+            
+            </ul>
+         </div>
+      </div>
+   </section>
+
+
+
+   <section class="section2">
+      <div class="center_box">
+         <div class="title_box">
+            <h2>대한민국 미술교육</h2>
+            <p>대표브랜드 C&C</p>
+            <a href="#">
+               View More - Brand Story 
+               <span><i class="fas fa-chevron-right"></i></span>
+            </a>
+         </div>
+
+
+         <ul class="story_box">
+         
+            <li><a href="#"><img src="http://picsum.photos/1920/1000" alt=""></a></li>
+            <li><a href="#"><img src="http://picsum.photos/1920/1001" alt=""></a></li>
+            <li><a href="#"><img src="http://picsum.photos/1920/1002" alt=""></a></li>
+         </ul>
+      </div>
+   </section>
+
+
+
+   <section class="section3">
+      <div class="center_box">
+         <h2>C&C 입시정보</h2>
+         <div>
+            <ul>
+               <li class="num">1</li>
+               <li class="photo"><img src="http://picsum.photos/106/106" alt=""></li>
+               <li class="tit">
+                  <h3>제목제목제목제목제목</h3>
+                  <p>내용내용내용내용내용내용내용</p>
+                  <div class="star">
+                     <span><img src="images/star.jpg" alt=""></span>
+                     <span><img src="images/star.jpg" alt=""></span>
+                     <span><img src="images/star.jpg" alt=""></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </li>
+               <li class="day">2021.10.25</li>
+               <li class="name">이예나</li>
+            </ul>
+            <ul>
+               <li class="num">2</li>
+               <li class="photo"><img src="http://picsum.photos/106/106" alt=""></li>
+               <li class="tit">
+                  <h3>제목제목제목제목제목</h3>
+                  <p>내용내용내용내용내용내용내용</p>
+                  <div class="star">
+                     <span><img src="images/star.jpg" alt=""></span>
+                     <span><img src="images/star.jpg" alt=""></span>
+                     <span><img src="images/star.jpg" alt=""></span>
+                     <span><img src="images/star.jpg" alt=""></span>
+                     <span></span>
+                  </div>
+               </li>
+               <li class="day">2021.10.25</li>
+               <li class="name">선우옹녀</li>
+            </ul>
+            <ul>
+               <li class="num">3</li>
+               <li class="photo"><img src="http://picsum.photos/106/106" alt=""></li>
+               <li class="tit">
+                  <h3>제목제목제목제목제목</h3>
+                  <p>내용내용내용내용내용내용내용</p>
+                  <div class="star">
+                     <img src="images/star.jpg" alt="">
+                     <img src="images/star.jpg" alt="">
+                     <img src="images/star.jpg" alt="">
+                     <img src="images/star.jpg" alt="">
+                     <img src="images/star_bg.jpg" alt="">
+                  </div>
+               </li>
+               <li class="day">2021.10.25</li>
+               <li class="name">백호</li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+
+
+   <footer>
+      <div class="center_box">
+         <h1><img src="images/logo.png" alt=""></h1>
+         <div class="infobox">
+            <ul class="info">
+               <li><a href="#">회사소개</a></li>
+               <li><a href="#">서비스이용약관</a></li>
+               <li><a href="#">개인정보처리방침</a></li>
+               <li><a href="#">사업자정보확인</a></li>
+            </ul>
+
+            <address>
+               회사명/대표자명/전화번호/팩스번호/주소/사업자번호/통신판매번호/개인정보취급방침 : 이예나 <br>
+               COPYRIGHT(C)회사명. ALL RIGHTS RESERVED.
+            </address>
+         </div>
+         <a href="tel:0000-0000" class="phone">0000-0000</a>
+      </div>
+   </footer>
+
+
+   <div class="bar"></div>
+
+
+   <script src="script/jquery-3.6.0.min.js"></script>
+   <script src="script/action.js"></script>
+   
+</body>
+</html>
